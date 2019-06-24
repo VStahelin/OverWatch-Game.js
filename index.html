@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+	<title>GENJI NEED HEALING</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+
+</head>
+
+<body bgcolor="#000000">
+		
+		<div id="titulo"><h1>GENJI NEED HEALING</h1></div>
+		<div id="background" >
+		<div id="jogador"></div>
+		<div id="tiro"></div>
+		<div id="energia"></div>
+		<div id="inimigo1"></div>
+		<div id="inimigo2"></div>
+		<div id="explosao1"></div>
+		<div id="explosao2"></div>
+		<div id="fim" onclick="reinicia()"></div>
+		<div id="inicio" onclick="start()">
+			<h1><font color="#99ff33">GENJI NEED HEALING</font></h1>
+			<p><font color="#99ff33">Utilizando a tecla W para movimentar a nave para cima, a tecla S para movimentar a nave para baixo, e a tecla D para atirar o raio de vida.</font>
+			</p>
+		</div>
+
+
+
+	</div>
+	<div id="placar"></div>
+	
+	
+	<audio src="som/LASERSHO.wav" preload="auto" id="somTiro"></audio>
+	<audio src="som/genji_i_need.mp3" preload="auto" id="somExplosao"></audio>
+	<audio src="som/Soundtrack.mp3" preload="auto" id="musica"></audio>
+	<audio src="som/pede_pra_nerfar.mp3" preload="auto" id="gameover"></audio>
+	<audio src="som/heroes_never_die.mp3" preload="auto" id="revive"></audio>
+	
+	</body>
+</html>

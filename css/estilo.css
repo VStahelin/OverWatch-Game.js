@@ -1,0 +1,101 @@
+#titulo{
+color: white;
+text-align: center;
+position: relative;
+}
+#background{
+background-image: url(../img/cenario.jpg);
+position: relative;
+width: 1579px;
+height: 640px;
+border-color: #99ff33;
+border-style: solid;
+}
+#jogador{
+width: 200px;
+height: 140px;
+position:relative;
+left: 55px;
+top: 222px;
+background-image: url(../img/mercy.gif);
+l
+}
+#inimigo1{
+width: 218px;
+height: 116px;
+position:absolute;
+left: 1500px;
+top: 348px;
+background-image: url(../img/genji.png);
+}
+#inimigo2{
+width: 218px;
+height: 116px;
+position:absolute;
+left: 1500px;
+top: 348px;
+background-image: url(../img/genji.png);
+}
+#tiro{
+width: 50px;
+height: 14px;
+background-image: url(../img/tiro.gif);
+left: 157px;
+top: -27px;
+position: absolute;
+}
+#energia{
+width: 100px;
+height: 15px;
+background-image: url(../img/energia_4.png); 
+left: 120px;
+top: 503px;
+position: absolute;
+}
+#explosao1{
+width: 70px;
+height: 23px;
+background-image: url(../img/fumaca.gif); 
+left: 100px;
+top: 503px;
+position: absolute;
+}
+
+#explosao2{
+width: 100px;
+height: 100px;
+background-image: url(../img/fumaca.gif); 
+left: 147px;
+top: 411px;
+position: absolute;
+}
+#fim{
+border-color: #99ff33;
+border-style: solid;
+width: 350px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+text-align: center;
+padding: 10px;
+background-color: black;
+}
+#inicio{
+border-color: #99ff33;
+border-style: solid;
+width: 350px;
+height: 200px;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+text-align: center;
+padding: 10px;
+}
+#placar{
+width: 700px;
+height:50px;
+text-align: center;
+position: relative;
+}
